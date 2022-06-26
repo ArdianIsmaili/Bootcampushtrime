@@ -1,0 +1,74 @@
+body{
+   margin: 0 auto;
+    width: 60%;
+    
+}
+.logo img{
+    height: 40px;
+    margin-top: 20px;  
+}
+.menu ul{
+    background-color: aqua;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+    gap: 0.2em;
+}
+.socialandtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social img{
+    height: 40px;
+    cursor: pointer;
+}
+.fotot img{
+    margin-left: 5px;
+    height: 300px;
+    width: 240px;
+    margin-bottom: 30px;
+}
+.alltogether{
+    display: flex;
+    justify-content: space-between;
+}
+.ordernow form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-right: 40px;
+}
+input[type="Submit"]{
+    width: 40%;
+}
+.tiramisu h4 p{
+    font-weight: 400;
+    margin-left: 20px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+.footer{
+display: flex;
+justify-content: space-between;
+background-color: aqua;
+margin-bottom: 20px;
+height: 100px;
+align-items: center;
+margin-left: 10px;
+}
+.footer h4{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.submit1{
+    margin-top: 10px;
+}
+.footer :nth-child(1) input{
+    margin-left: 30px;
+}
+.footer :nth-child(1) h4{
+    margin-left: 25px;
+}
+
